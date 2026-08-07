@@ -7,4 +7,8 @@ rgs = {
     name = "rg-bharat"
     location = "central india"
 }
+rg3 = {
+    name = "rg-delhi"
+    location = "central india"
+}
 }
