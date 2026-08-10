@@ -19,11 +19,9 @@ A clean, modular, and dynamic **Terraform** configuration designed to provision 
   - [`variable.tf`](#variabletf)
   - [`terraform.tfvars`](#terraformtfvars)
   - [`provider.tf`](#providertf)
-- [📥 Input Variables](#-input-variables)
-- [📤 Outputs](#-outputs)
-- [🧹 Cleanup](#-cleanup)
+- [📥 Input Variables](#-input-variables
 - [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
+
 
 ---
 
