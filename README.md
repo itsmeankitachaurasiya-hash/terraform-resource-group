@@ -2,7 +2,7 @@
 
 [![Terraform](https://img.shields.io/badge/Terraform-%235847B7.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
 
 A clean, modular, and dynamic **Terraform** configuration designed to provision multiple **Azure Resource Groups** seamlessly using `for_each` mapping in Microsoft Azure.
 
@@ -171,28 +171,8 @@ provider "azurerm" {
 
 ---
 
-## 📤 Outputs
 
-You can optionally declare an `output.tf` file to extract created resource IDs:
 
-```hcl
-output "resource_group_ids" {
-  description = "Map of Resource Group IDs created"
-  value       = { for k, v in azurerm_resource_group.resource_block : k => v.id }
-}
-```
-
----
-
-## 🧹 Cleanup
-
-To tear down all resources created by this Terraform workspace:
-
-```bash
-terraform destroy -auto-approve
-```
-
----
 
 ## 🤝 Contributing
 
@@ -205,13 +185,3 @@ Contributions, issues, and feature requests are always welcome!
 5. 📬 Open a Pull Request
 
 ---
-
-## 📜 License
-
-Distributed under the **MIT License**. See `LICENSE` for details.
-
----
-
-<p align="center">
-  Made with ❤️ for DevOps & Azure Infrastructure Automation ☁️✨
-</p>
