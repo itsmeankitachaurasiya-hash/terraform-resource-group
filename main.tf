@@ -3,6 +3,3 @@ resource "azurerm_resource_group" "resource_block" {
   name     = each.value.name
   location = each.value.location
 }
-resource "azurerm_virtual_network" "virtual" {
-  
-}
